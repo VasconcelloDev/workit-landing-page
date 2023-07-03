@@ -20,12 +20,10 @@ body {
 .header__navigate a {
   font-size: 18px;
   font-family: marope, sans-serif;
-  font-style: normal;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.18px;
-  text-decoration: none;
-  color: var(--white, #fff);
+  color: #fff;
   text-decoration: none;
 }
 .header__navigate span {
@@ -38,8 +36,8 @@ body {
 .hero {
   width: 100%;
   background-color: #24053e;
-  border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
+  border-bottom-left-radius: 100% 20%;
+  border-bottom-right-radius: 100% 20%;
 }
 
 .hero__container {
@@ -50,28 +48,27 @@ body {
   max-width: 1440px;
   margin: auto;
   position: relative;
+  padding-bottom: 326px;
 }
 
 .hero__title {
-  color: var(--white, #fff);
+  color: #fff;
   font-family: Fraunces, sans-serif;
   text-align: center;
   font-size: 80px;
   font-weight: 600;
   line-height: 80px;
-  width: 636px;
-  height: 160px;
+  max-width: 636px;
 }
 
 .hero__navigate {
   margin-top: 50px;
   padding: 15px 32px;
-  border: 2px solid var(--eucaplyptus, #44ffa1);
-  color: var(--eucaplyptus, #44ffa1);
+  border: 2px solid #44ffa1;
+  color: #44ffa1;
   text-align: center;
   font-size: 18px;
   font-family: Manrope, sans-serif;
-  font-style: normal;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.18px;
@@ -80,7 +77,8 @@ body {
 .hero__image__phone {
   width: 702px;
   height: 405px;
-  margin-top: 46px;
+  position: absolute;
+  bottom: -160px;
 }
 .hero__image__circle-1 {
   position: absolute;
@@ -92,26 +90,23 @@ body {
 .hero__image__circle-2 {
   position: absolute;
   left: -130px;
-
-  width: 280px;
   top: 0px;
 }
 
 .services__list {
   display: flex;
   gap: 26px;
-  height: 308px;
   margin: auto;
   text-align: center;
   list-style: none;
-  margin-top: 104px;
+  margin-top: 255px;
   align-items: center;
-  width: 1114px;
+  max-width: 1114px;
 }
 .services__list li span {
   padding: 8px 15px;
   border-radius: 50%;
-  border: 1px solid var(--davys-grey, #584d62);
+  border: 1px solid #584d62;
   color: var(--dark-purple, #24053e);
   font-size: 24px;
   font-family: Fraunces, sans-serif;
@@ -120,7 +115,7 @@ body {
 }
 
 .services__list li h2 {
-  color: var(--dark-purple, #24053e);
+  color: #24053e;
   font-size: 32px;
   font-family: Fraunces, sans-serif;
   font-weight: 600;
@@ -128,7 +123,7 @@ body {
   margin-top: 56px;
 }
 .services__list li p {
-  color: var(--davys-grey, #584d62);
+  color: #584d62;
   font-size: 18px;
   font-family: Manrope, sans-serif;
   font-weight: 400;
@@ -138,9 +133,7 @@ body {
 
 .testimonials {
   display: flex;
-
   max-width: 1112px;
-
   margin: auto;
 }
 .testimonials__image {
@@ -152,8 +145,7 @@ body {
   width: 730px;
 
   background-color: #24053e;
-  display: flex;
-  flex-direction: column;
+
   padding: 64px;
   position: relative;
   margin-top: 283px;
@@ -165,34 +157,31 @@ body {
   font-family: Fraunces, sans-serif;
   font-weight: 600;
   line-height: 64px;
-  color: var(--white, #fff);
+  color: #fff;
 }
 .testimonials__container p {
-  color: var(--white, #fff);
+  color: #fff;
 
   font-size: 18px;
   font-family: Manrope, sans-serif;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px;
   margin-top: 42px;
 }
 
 .testimonials__container a {
-  padding: 15px 5px;
-  border: 2px solid var(--eucaplyptus, #44ffa1);
-  color: var(--eucaplyptus, #44ffa1);
-  text-align: center;
+  padding: 15px 25px;
+  border: 2px solid #44ffa1;
+  color: #44ffa1;
   font-size: 18px;
   font-family: Manrope, sans-serif;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.18px;
-
-  width: 190px;
   margin-top: 52px;
-  display: block;
+  display: inline-block;
 }
+
 .testimonials__circle {
   position: absolute;
   right: 50px;
@@ -201,6 +190,7 @@ body {
 .footer__social {
   text-align: center;
   margin-top: 121px;
+  margin-bottom: 110px;
 }
 .footer__social__media {
   display: flex;
